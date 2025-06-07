@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid backgound">
+                <a class="navbar-brand" href="#">🍽️Yummy Restaurant</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active mx-2 text-white" aria-current="page" href="#home">
+                                <i class="bi bi-house-door-fill text-white me-1"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-white" href="#about">
+                                <i class="bi bi-info-circle-fill text-white me-1"></i> About
+                            </a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-white" href="#menu">
+                                <i class="bi bi-card-list text-white me-1"></i> Menu
+                            </a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-white" href="#book">
+                                <i class="bi bi-calendar-check-fill text-white me-1"></i> Book a Table
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-white" href="#chefs">
+                                <i class="bi bi-person-fill text-white me-1"></i> Chefs
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-white" href="#event">
+                                <i class="bi bi-calendar-event-fill text-white me-1"></i> Events
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle mx-2 text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-white" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                       <a href="#book"> <button class="btn" type="submit">Book A Table</button></a>
+                    
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Home Section -->
+    <div id="home">
+        <div class="container-fluid my-5">
+            <div class="row align-items-center">
+
+                <div class="col-md-6 text-center text-md-start">
+                    <div class="text-center text-md-start my-4">
+                        <button class="reservation-btn">RESERVATIONS OPEN</button>
+                    </div>
+                    <div class="title mb-3">Savor the Moment, One Bite at a Time</div>
+                    <p class="title-para">Discover a journey of flavors at our exquisite restaurant. Immerse yourself in
+                        a
+                        delightful dining experience crafted with passion and precision.</p>
+                    <p class="title-para ps-5">⏰Open Daily: 11am - 10pm</p>
+                    <button type="button" class="btnr btn-primary mt-4 ">Book a Table</button>
+                    <button type="button" class="btnp btn-secondary mt-4 ">Explore Our Menu</button>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+
+
+                </div>
+
+                <!-- Right Column - Carousel -->
+                <div class="col-md-6">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Img/2.jpeg" class="carousel-img d-block w-200" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Img/1.jpeg" class="carousel-img d-block w-200" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Img/3.jpeg" class="carousel-img d-block w-200" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container-fluid my-5 pt-5">
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+                    <h2 class="fs-2 text-white">Our Culinary Journey</h2>
+                    <p class="title-para pt-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum
+                        tristique.</p>
+                    <p class="title-para pt-5">Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                        commodo
+                        diam libero vitae erat.
+                        Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                        tristique
+                        posuere.
+                        Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    </p>
+                    <div class="cook">
+                        <p class="pad">"Cooking is a language through which all the following properties may be
+                            expressed:
+                            harmony,
+                            creativity, happiness, beauty, poetry, complexity, magic, humor, provocation and culture."
+
+                            Executive Chef</p>
+                        <img src="./Img/6.jpeg" class="cook-img" alt="">
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 pt-0">
+                    <img src="Img/4.jpeg" class="img-fluid rounded w-95" alt="Culinary Journey">
+                </div>
+                <div class="col-md-6 righting">
+                    <img src="Img/5.jpeg" class="img-fluid rounded w-60" alt="Culinary Journey">
+                </div>
+            </div>
+        </div>
+
+        <hr class="custom-line">
+        <div class="container my-5">
+            <div class="row text-center g-4">
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-box">
+                        <h4>Award Winning</h4>
+                        <img src="./Img/7.jpeg" alt="Award Winning">
+                        <p>Recognized for excellence and innovation in culinary arts globally.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-box">
+                        <h4>Fresh Ingredients</h4>
+                        <img src="./Img/8.jpeg" alt="Fresh Ingredients">
+                        <p>We use only high-quality, farm-fresh ingredients in every dish we serve.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-box">
+                        <h4>Expert Team</h4>
+                        <img src="./Img/9.jpeg" alt="Expert Team">
+                        <p>Our professional chefs bring years of experience to your table.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-box">
+                        <h4>Cooked with Love</h4>
+                        <img src="./Img/10.jpeg" alt="Cooked with Love">
+                        <p>Every dish is made with care and passion to create unforgettable flavors.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <div class="row text-center">
+                <div class="col">
+                    <ul class="length d-flex justify-content-between flex-wrap list-unstyled">
+                        <li>
+                            <h2>15+</h2>
+                            <p>Years Experience</p>
+                        </li>
+                        <li>
+                            <h2>5</h2>
+                            <p>Branches</p>
+                        </li>
+                        <li>
+                            <h2>9</h2>
+                            <p>Chefs</p>
+                        </li>
+                        <li>
+                            <h2>15000+</h2>
+                            <p>Happy Customers</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Menu section -->
+    <div id="menu">
+        <div class="container">
+            <div class="section-title" id="all">
+                <h2>Menu</h2>
+                <p class="text-white">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                </p>
+            </div>
+
+            <input type="radio" name="menu-filter" id="filter-all" checked hidden>
+            <input type="radio" name="menu-filter" id="filter-nonveg" hidden>
+            <input type="radio" name="menu-filter" id="filter-veg" hidden>
+            <input type="radio" name="menu-filter" id="filter-fastfood" hidden>
+            <input type="radio" name="menu-filter" id="filter-drinks" hidden>
+
+
+            <div class="d-flex justify-content-center p-3 gap-3 menu">
+                <label for="filter-all" class="btn btn-dark rounded-pill">All</label>
+                <label for="filter-nonveg" class="btn btn-dark rounded-pill">Non-Vegetarian</label>
+                <label for="filter-veg" class="btn btn-dark rounded-pill">Vegetarian</label>
+                <label for="filter-fastfood" class="btn btn-dark rounded-pill">Fast Food</label>
+                <label for="filter-drinks" class="btn btn-dark rounded-pill">Drinks</label>
+            </div>
+
+
+            <div class="container my-4">
+                <div class="row g-4">
+
+                    <!-- Menu Item 1 -->
+                    <div class="col-md-6 menu-item nonveg">
+                        <div class="d-flex bg-dark text-white rounded-4 p-3 align-items-center">
+                            <img src="./Img/11.jpeg" class="rounded-3 me-3" alt="Bruschetta"
+                                style="width: 100px; height: 100px; object-fit: cover;">
+                            <div>
+                                <h5 class="mb-1 fw-bold text-light">
+                                    Chiken Tandoori
+                                    <span class="badge bg-secondary small ms-2">Non-Vegetarian</span>
+                                </h5>
+                                <p class="mb-1 text-light-50">The dish is known for its vibrant red color and smoky
+                                    flavor
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 2 -->
+                    <div class="col-md-6 menu-item veg">
+                        <div class="d-flex bg-dark text-white rounded-4 p-3 align-items-center">
+                            <img src="./Img/12.jpeg" class="rounded-3 me-3" alt="Calamari"
+                                style="width: 100px; height: 100px; object-fit: cover;">
+                            <div>
+                                <h5 class="mb-1 fw-bold text-light">
+                                    Vegetarian
+                                    <span class="badge bg-secondary small ms-2">Masala Dosa</span>
+                                </h5>
+                                <p class="mb-1 text-light-50"> A classic dosa stuffed with a spicy potato filling. </p>
+                                <strong class="text-warning">$10.95</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Menu Item 3 -->
+                    <div class="col-md-6 menu-item fastfood">
+                        <div class="d-flex bg-dark text-white rounded-4 p-3 align-items-center">
+                            <img src="./Img/13.jpeg" class="rounded-3 me-3" alt="Calamari"
+                                style="width: 100px; height: 100px; object-fit: cover;">
+                            <div>
+                                <h5 class="mb-1 fw-bold text-light">
+                                    Burger
+                                    <span class="badge bg-secondary small ms-2">Fast Food</span>
+                                </h5>
+                                <p class="mb-1 text-light-50"> A classic dosa stuffed with a spicy potato filling. </p>
+                                <strong class="text-warning">$10.95</strong>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Menu Item 4 -->
+                    <div class="col-md-6 menu-item fastfood">
+                        <div class="d-flex bg-dark text-white rounded-4 p-3 align-items-center">
+                            <img src="./Img/14.jpeg" class="rounded-3 me-3" alt="Calamari"
+                                style="width: 100px; height: 100px; object-fit: cover;">
+                            <div>
+                                <h5 class="mb-1 fw-bold text-light">
+                                    Finger Chips
+                                    <span class="badge bg-secondary small ms-2">Fast Food</span>
+                                </h5>
+                                <p class="mb-1 text-light-50"> A potato filling. </p>
+                                <strong class="text-warning">$10.95</strong>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Menu Item 5 -->
+                    <div class="col-md-6 menu-item  drinks">
+                        <div class="d-flex bg-dark text-white rounded-4 p-3 align-items-center">
+                            <img src="./Img/15.jpeg" class="rounded-3 me-3" alt="Calamari"
+                                style="width: 100px; height: 100px; object-fit: cover;">
+                            <div>
+                                <h5 class="mb-1 fw-bold text-light">
+                                    Fresh Juice
+                                    <span class="badge bg-secondary small ms-2">Drinks</span>
+                                </h5>
+                                <p class="mb-1 text-light-50"> A classic dosa stuffed with a spicy potato filling. </p>
+                                <strong class="text-warning">$10.95</strong>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Menu Item 6 -->
+                    <div class="col-md-6 menu-item drinks">
+                        <div class="d-flex bg-dark text-white rounded-4 p-3 align-items-center">
+                            <img src="./Img/16.jpeg" class="rounded-3 me-3" alt="Calamari"
+                                style="width: 100px; height: 100px; object-fit: cover;">
+                            <div>
+                                <h5 class="mb-1 fw-bold text-light">
+                                    Fruit Mixer
+                                    <span class="badge bg-secondary small ms-2">Drinks</span>
+                                </h5>
+                                <p class="mb-1 text-light-50"> A classic dosa stuffed with a spicy potato filling. </p>
+                                <strong class="text-warning">$10.95</strong>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Menu Item 7 -->
+                    <div class="col-md-6 menu-item veg">
+                        <div class="d-flex bg-dark text-white rounded-4 p-3 align-items-center">
+                            <img src="./Img/17.jpeg" class="rounded-3 me-3" alt="Calamari"
+                                style="width: 100px; height: 100px; object-fit: cover;">
+                            <div>
+                                <h5 class="mb-1 fw-bold text-light">
+                                    Vegetarian
+                                    <span class="badge bg-secondary small ms-2">Non-Vegetarian</span>
+                                </h5>
+                                <p class="mb-1 text-light-50"> A classic dosa stuffed with a spicy potato filling. </p>
+                                <strong class="text-warning">$10.95</strong>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Menu Item 3 -->
+                    <div class="col-md-6 menu-item nonveg">
+                        <div class="d-flex bg-dark text-white rounded-4 p-3 align-items-center">
+                            <img src="./Img/18.jpeg" class="rounded-3 me-3" alt="Calamari"
+                                style="width: 100px; height: 100px; object-fit: cover;">
+                            <div>
+                                <h5 class="mb-1 fw-bold text-light">
+                                    Vegetarian
+                                    <span class="badge bg-secondary small ms-2">Masala Dosa</span>
+                                </h5>
+                                <p class="mb-1 text-light-50"> A classic dosa stuffed with a spicy potato filling. </p>
+                                <strong class="text-warning">$10.95</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <button class="reservation-btn">📎 Download Full Menu</button>
+            </div>
+        </div>
+
+
+        <!-- Spacial Food -->
+        <div class="container">
+            <div class="d-inline-flex align-items-center text-white bg-dark px-3 py-2 rounded-pill mb-4">
+                <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Chef Icon" width="30"
+                    class="me-2">
+                <strong class="foods">Chef's Specials</strong>
+            </div>
+
+            <!-- Specials Grid -->
+            <div class="row justify-content-center g-4">
+
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-5">
+                    <div class="card bg-dark text-white border-5 h-100">
+                        <div class="position-relative overflow-hidden rounded">
+                            <img src="./Img/20.jpeg" class="card-img-top object-fit-cover transition" alt="Salmon"
+                                style="height: 300px; object-fit: cover; cursor: zoom-in; transition: transform 0.4s;">
+                            <div class="position-absolute top-0 start-0 m-3 d-flex gap-2">
+                                <span class="badge bg-warning text-dark">SPECIAL</span>
+                                <span class="badge bg-success">VEGAN</span>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="card-title fw-bold">Mediterranean Grilled Salmon</h5>
+                                <p class="card-text text-white-50">Fresh, healthy, and delicious salmon grilled to
+                                    perfection.
+                                </p>
+                            </div>
+                            <p class="fw-bold text-warning mt-3">$24.99</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="col-md-6 col-lg-5">
+                    <div class="card bg-dark text-white border-5 h-100">
+                        <div class="position-relative overflow-hidden rounded">
+                            <img src="./Img/19.jpeg" class="card-img-top object-fit-cover transition" alt="Ribeye"
+                                style="height: 300px; object-fit: cover; cursor: zoom-in; transition: transform 0.4s;">
+                            <div class="position-absolute top-0 start-0 m-2 d-flex gap-2">
+                                <span class="badge bg-warning text-dark">SPECIAL</span>
+                                <span class="badge bg-danger">SPICY</span>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="card-title fw-bold">Signature Ribeye Steak</h5>
+                                <p class="card-text text-white-50">Juicy steak seasoned and seared for a flavorful
+                                    finish.
+                                </p>
+                            </div>
+                            <p class="fw-bold text-warning mt-3">$32.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Customer -->
+        <div class="container">
+            <div class="section-title" id="all">
+                <h2>Customer Feedback</h2>
+                <p class="text-white">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                </p>
+            </div>
+
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="testimonial-box text-center p-4 mx-auto">
+                            <img src="./Img/21.jpeg" alt="Customer 1"
+                                class="testimonial-img mx-auto d-block mb-3 rounded-circle">
+                            <h5 class="text-warning mb-1">Zimha Zara</h5>
+                            <small class="text-muted mb-3 d-block">Designer</small>
+                            <div class="stars mb-2">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">
+                                “The pasta was perfectly cooked, and the sauce had the right amount of spice. Loved the
+                                warm
+                                atmosphere and friendly service. I’ll definitely come again!”
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-box text-center p-4 mx-auto">
+                            <img src="./Img/22.jpeg" alt="Customer 2"
+                                class="testimonial-img mx-auto d-block mb-3 rounded-circle">
+                            <h5 class="text-warning mb-1">Jenis</h5>
+                            <small class="text-muted mb-3 d-block">Store Owner</small>
+                            <div class="stars mb-2">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">
+                                “Incredible variety of dishes and amazing flavors. The grilled chicken was juicy and the
+                                desserts were heavenly. A top-notch dining experience!”
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-box text-center p-4 mx-auto">
+                            <img src="./Img/23.jpeg" alt="Customer 3"
+                                class="testimonial-img mx-auto d-block mb-3 rounded-circle">
+                            <h5 class="text-warning mb-1">Shipha</h5>
+                            <small class="text-muted mb-3 d-block">Freelancer</small>
+                            <div class="stars mb-2">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">
+                                “This place is a gem! From the fresh seafood platter to the aromatic biryani, everything
+                                was
+                                delicious. The ambiance is cozy and staff are very welcoming.”
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon  rounded-circle"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon rounded-circle"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+
+                <div class="carousel-indicators mt-4">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                        class="active bg-warning"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                        class="bg-warning"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+                        class="bg-warning"></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Chefs -->
+    <div id="chefs">
+
+
+        <div class="container">
+            <div class="section-title" id="all">
+                <h2>Chefs</h2>
+                <p class="text-white">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                </p>
+            </div>
+            <div class="container py-5">
+
+                <div class="row g-4">
+
+
+                    <div class="col-md-5">
+                        <div class="card bg-dark text-white border-0 shadow-lg">
+                            <img src="./Img/24.jpeg" class="card-img-ki" alt="Gabriel Turner">
+                            <div class="card-body">
+                                <h6 class="text-warning fw-semibold">EXECUTIVE CHEF</h6>
+                                <h3 class="fw-bold">Gabriel Turner</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                                    Lorem
+                                    ipsum dolor sit amet consectetur adipisicing elit. Earum expedita, illum pariatur
+                                    temporibus error tempora quaerat. Velit dolor labore, nihil voluptatum doloremque
+                                    consectetur numquam error reprehenderit suscipit ullam ipsa maiores.
+                                    w ullamcorper mattis, pulvinar dapibus leo.</p>
+                                <p class="fst-italic">— Eliot Johnson</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="row g-4">
+
+                            <div class="col-md-6">
+                                <div class="card bg-dark text-white border-0 shadow-sm h-100">
+                                    <img src="./Img/27.jpeg" class="card-img-top" alt="Sophia Martinez">
+                                    <div class="card-body">
+                                        <h5 class="fw-bold mb-0">Sophia Martinez</h5>
+                                        <small class="text-warning">PASTRY CHEF</small>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                            dignissim purus a ipsum faucibus.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="card bg-dark text-white border-0 shadow-sm h-100">
+                                    <img src="./Img/25.jpeg" class="card-img-top" alt="Marcus Chen">
+                                    <div class="card-body">
+                                        <h5 class="fw-bold mb-0">Marcus Chen</h5>
+                                        <small class="text-warning">SOUS CHEF</small>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                            dignissim purus a ipsum faucibus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card bg-dark text-white border-0 shadow-sm h-100">
+                                    <img src="./Img/26.jpeg" class="card-img-top" alt="Jonathan Williams">
+                                    <div class="card-body">
+                                        <h5 class="fw-bold mb-0">Jonathan Williams</h5>
+                                        <small class="text-warning">HEAD OF BAR</small>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                            dignissim purus a ipsum faucibus.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="card bg-dark text-white border-0 shadow-sm h-100">
+                                    <img src="./Img/28.jpeg" class="card-img-top" alt="Isabella Romano">
+                                    <div class="card-body">
+                                        <h5 class="fw-bold mb-0">Isabella Romano</h5>
+                                        <small class="text-warning">GRILL MASTER</small>
+                                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                            dignissim purus a ipsum faucibus.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Book A Table -->
+    <div id="book">
+        <div class="container">
+            <div class="section-title" id="all">
+                <h2>Book A Table</h2>
+                <p class="text-white">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                </p>
+            </div>
+            <div class="container py-1">
+            </div>
+            <div class="container my-5">
+                <div class="row align-items-center">
+                    <!-- Text Section -->
+                    <div class="col-md-6">
+                        <ul class="list-unstyled text-white">
+                            <li class="mb-2">
+                                <strong><i class="fa-regular fa-clock me-2"></i> Opening Hours</strong><br>
+                                Monday - Friday: 11:00 AM - 11:00 PM<br>
+                                Saturday - Sunday: 10:00 AM - 12:00 AM
+                            </li>
+                            <li class="mb-2">
+                                <strong><i class="fa-solid fa-location-dot me-2"></i>Location</strong><br>
+                                1234 Main Street, Suite 100<br>
+                                Boston, MA 02110
+                            </li>
+                            <li class="mb-2">
+                                <strong><i class="fa-solid fa-phone me-2"></i>Call Us</strong><br>
+                                +1 (617) 555-1234
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Image Section -->
+                    <div class="col-md-6">
+                        <img src="./Img/29.jpeg" alt="Dining Room" class="img-fluid rounded shadow zoom-in">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="p-4 rounded tables">
+                <h3 class="text-center fw-bold mb-3 text-white">Book A Table</h3>
+                <p class="text-center text-white">Please fill the form below to make a reservation</p>
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-md-4 mb-2">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <input type="text" class="form-control" placeholder="Your Phone">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4 mb-2">
+                            <select class="form-select">
+                                <option selected>Number of guests</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5+">5+</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <input type="time" class="form-control">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="3" placeholder="Special Requests (Optional)"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-warning px-4">Book Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Location -->
+    <div class="container">
+        <div class="section-title" id="all">
+            <h2>Location</h2>
+            <p class="text-white">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+        <div class="container my-5">
+            <div class="row g-4">
+                <!-- Map -->
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d62613.47561163613!2d78.13436216646991!3d11.236215968978122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1snamakkal%20near%20by%20restaurants%20by%20google%20map!5e0!3m2!1sen!2sin!4v1748623088699!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                    </iframe>
+                </div>
+
+                <!-- Info Card -->
+                <div class="col-md-6">
+                    <div class="info-card h-100 d-flex flex-column justify-content-between text-white">
+                        <div>
+                            <h2 class="text-center mb-2">Find Us</h2>
+                            <p class="text-center mb-4">Visit Us Today</p>
+
+                            <div class="mb-4">
+                                <div class="d-flex align-items-start">
+                                    <div class="info-icon">
+                                        📍
+                                    </div>
+                                    <div>
+                                        <h5>Our Location</h5>
+                                        <p>201.A Namakkal,Surronding</p>
+                                    </div>
+                                </div>
+                                <hr class="text-secondary">
+                                <div class="d-flex align-items-start">
+                                    <div class="info-icon">
+                                        📞
+                                    </div>
+                                    <div>
+                                        <h5>Reservations</h5>
+                                        <p>+1 (212) 555-7890<br>
+                                            <small class="text-muted">We recommend making reservations at least 48 hours
+                                                in advance</small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr class="text-white">
+                                <div class="d-flex align-items-start">
+                                    <div class="info-icon">
+                                        ⏰
+                                    </div>
+                                    <div>
+                                        <h5>Hours</h5>
+                                        <div class="d-flex justify-content-between">
+                                            <span>Monday - Thursday</span>
+                                            <span>11:00 AM - 10:00 PM</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span>Friday - Saturday</span>
+                                            <span>11:00 AM - 11:30 PM</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span>Sunday</span>
+                                            <span>10:00 AM - 9:00 PM</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <span>Brunch Hours</span>
+                                            <span>Sat & Sun, 10:00 AM - 2:00 PM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mt-4">
+                            <button class="btn btn-custom w-50">Make a Reservation</button>
+                            <button class="btn btn-outline-custom w-50">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="section-title" id="all">
+                <h2>Unforgettable Moments</h2>
+                <p class="text-white">orem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida nibh vel
+                    velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.
+                </p>
+            </div>
+
+            <div class="container py-5">
+                <div class="row text-center mb-4">
+                    <div class="col-md-4 mb-3">
+                        <div class="card-dark h-100">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <h5 class="mt-3">Weddings & Celebrations</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <span class="badge bg-secondary">Up to 150 guests</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card-dark h-100">
+                            <i class="fa-solid fa-building"></i>
+                            <h5 class="mt-3">Corporate Events</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <span class="badge bg-secondary">Up to 100 guests</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card-dark h-100">
+                            <i class="fa-solid fa-people-group"></i>
+                            <h5 class="mt-3">Private Gatherings</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <span class="badge bg-secondary">Up to 50 guests</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-3 mb-5">
+                    <div class="col-md-9">
+                        <img src="./Img/30.jpeg" class="img-fluid rounded w-100 zoom-in" alt="Main Event">
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <img src="./Img/31.jpeg" class="img-fluid rounded mb-3 zoom-in"
+                            style="height:300px; width:100%; object-fit:cover;" alt="Cheers">
+                        <img src="./Img/32.jpeg" class="img-fluid rounded mb-3 zoom-in"
+                            style="height:300px; width:100%; object-fit:cover;" alt="Family Dinner">
+                    </div>
+
+                </div>
+
+                <div class="card-dark text-center">
+                    <h4>Ready to plan your special event?</h4>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed justo magna.</p>
+                    <a href="contact.html" class="btn btn-gold">Reserve Venue</a>
+                </div>
+            </div>
+
+            <!-- Events -->
+            <div id="event">
+                <div class="container">
+                    <div class="section-title" id="all">
+                        <h2>Feature Events</h2>
+                    </div>
+
+                    <div class="container py-5">
+                        <div class="row g-4">
+                            <!-- Event Card 1 -->
+                            <div class="col-md-6">
+                                <div class="card event-card h-100">
+                                    <div class="row g-0">
+                                        <div class="col-4 position-relative">
+                                            <img src="./Img/32.jpeg" class="img-fluid h-100 object-fit-cover"
+                                                alt="Summer Wine Festival">
+                                            <div class="event-date-box">
+                                                <div class="event-month">JUN</div>
+                                                <div class="event-day">18</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Summer Wine Festival</h4>
+                                                <p class="mb-2">
+                                                    <i class="bi bi-clock"></i> 6:00 PM - 10:00 PM &nbsp;
+                                                    <i class="bi bi-geo-alt"></i> Garden Terrace
+                                                </p>
+                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit. Aenean sed justo magna dolor sit amet.</p>
+                                                <a href="#" class="btn btn-outline-warning mt-2">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Event Card 2 -->
+                            <div class="col-md-6">
+                                <div class="card event-card h-100">
+                                    <div class="row g-0">
+                                        <div class="col-4 position-relative">
+                                            <img src="./Img/33.jpeg" class="img-fluid h-100 object-fit-cover"
+                                                alt="Gourmet Tasting Night">
+                                            <div class="event-date-box">
+                                                <div class="event-month">JUL</div>
+                                                <div class="event-day">05</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Gourmet Tasting Night</h4>
+                                                <p class="mb-2">
+                                                    <i class="bi bi-clock"></i> 7:30 PM - 11:00 PM &nbsp;
+                                                    <i class="bi bi-geo-alt"></i> Main Dining Hall
+                                                </p>
+                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                    elit. Aenean sed justo magna dolor sit amet.</p>
+                                                <a href="#" class="btn btn-outline-warning mt-2">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="container">
+                        <div class="section-title" id="all">
+                            <h2>Contact</h2>
+                            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                        </div>
+                        <div class="container py-5">
+                            <div class="row g-4 justify-content-center">
+
+                                <!-- Address -->
+                                <div class="col-md-4">
+                                    <div class="info-box p-4 rounded-4 h-100">
+                                        <div class="d-flex align-items-start">
+                                            <div class="icon-circle me-3">
+                                                <i class="bi bi-geo-alt fs-4"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="fw-bold">Our Address</h5>
+                                                <p class="mb-0">1842 Maple Avenue, Portland,<br>Oregon 97204</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Email -->
+                                <div class="col-md-4">
+                                    <div class="info-box p-4 rounded-4 h-100">
+                                        <div class="d-flex align-items-start">
+                                            <div class="icon-circle me-3">
+                                                <i class="bi bi-envelope fs-4"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="fw-bold">Email Address</h5>
+                                                <p class="mb-1">info@example.com</p>
+                                                <p class="mb-0">contact@example.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Hours -->
+                                <div class="col-md-4">
+                                    <div class="info-box p-4 rounded-4 h-100">
+                                        <div class="d-flex align-items-start">
+                                            <div class="icon-circle me-3">
+                                                <i class="bi bi-headset fs-4"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="fw-bold">Hours of Operation</h5>
+                                                <p class="mb-1">Sunday-Fri: 9 AM - 6 PM</p>
+                                                <p class="mb-0">Saturday: 9 AM - 4 PM</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9295973219145!2d-74.01067312407073!3d40.71239533858888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1bb9c3704b%3A0xe5e412dc2bc2b505!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1717130000000!5m2!1sen!2sus"
+                                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                     <div id="contact">
+                    <div class="container my-5">
+                        <div class="contact-form p-4 rounded">
+                            <h2 class="text-center mb-4">Get in Touch</h2>
+                            <form>
+                                <div class="row mb-3">
+                                    <div class="col-md-6 mb-3 mb-md-0">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="firstName"
+                                                placeholder="First Name">
+                                            <label for="firstName"><i class="bi bi-person"></i> First Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="Email Address">
+                                            <label for="email"><i class="bi bi-envelope"></i> Email Address</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <label for="subject"><i class="bi bi-list"></i> Subject</label>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Write Message..." id="message"
+                                            style="height: 150px"></textarea>
+                                        <label for="message"><i class="bi bi-chat-dots"></i> Write Message...</label>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-custom">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                        </div>
+
+
+                        <!-- Footer -->
+                        <footer class="footer">
+                            <div class="container-fluid">
+                                <div class="row pt-5">
+                                    <div class="col-lg-3 col-md-6 footer-info">
+                                        <h3>Yummy Restaurant</h3>
+                                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra
+                                            videa magna derita valies darta donna mare fermentum iaculis eu non diam
+                                            phasellus.</p>
+                                        <div class="social-links mt-3">
+                                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 footer-links">
+                                        <h4>Useful Links</h4>
+                                        <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">About us</a></li>
+                                            <li><a href="#">Services</a></li>
+                                            <li><a href="#">Terms of service</a></li>
+                                            <li><a href="#">Privacy policy</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 footer-links">
+                                        <h4>Our Services</h4>
+                                        <ul>
+                                            <li><a href="#">Web Design</a></li>
+                                            <li><a href="#">Web Development</a></li>
+                                            <li><a href="#">Product Management</a></li>
+                                            <li><a href="#">Marketing</a></li>
+                                            <li><a href="#">Graphic Design</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 footer-contact">
+                                        <h4>Contact Us</h4>
+                                        <p>
+                                            A108 Adam Street<br>
+                                            Namakkal, NY 535022<br>
+                                            India,Tamil Nadu<br><br>
+                                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                                            <strong>Email:</strong> info@example.com<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container text-center py-4">
+                                <div class="copyright">
+                                    &copy; Copyright <strong><span>Yummy Restaurant</span></strong>. All Rights Reserved
+                                </div>
+                                <div class="credits">
+                                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                                </div>
+                            </div>
+                        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+                            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+                            crossorigin="anonymous">
+                        </script>
+
+</body>
+
+</html>
